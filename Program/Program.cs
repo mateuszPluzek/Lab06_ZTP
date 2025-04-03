@@ -1,9 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Program;
 
-static class Program
+public static class Program
 {
     static void Main()
     {
-        Console.WriteLine("Hello");
+        // CalculatorTests tester = new CalculatorTests();
+        // tester.Addition_Returns_CorrectSum();
+        
+        //starts the test
+        //dotnet-coverage collect --output coverage-report.coverage dotnet test
     }
 }
